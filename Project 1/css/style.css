@@ -1,0 +1,262 @@
+/* html {
+    height: 100%;
+} */
+body {
+    font-family: 'Rubik', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+.navbar-light {
+    color: black;
+    font-weight: 800;
+}
+
+.nav-item {
+    padding: 23px 39px;
+}
+
+.navbar-brand {
+    padding-left: 89px;
+}
+
+.navbar-collapse .navbar-nav .nav-item a:hover {
+    color: #ec5b53;
+}
+
+.header-btn {
+    padding: 16px 18px;
+    background-color: #ec5b53;
+    height: 56px;
+    color: floralwhite;
+}
+
+.navbar-collapse .navbar-nav a:hover {
+    color: floralwhite;
+}
+
+.header-btn {
+    padding: 16px 18px;
+    background-color: #ec5b53;
+    height: 56px;
+    color: floralwhite;
+    border:1px solid#ec5b53;
+    position:relative;  
+    background: linear-gradient(to bottom, black 50%, #000 50%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+.header-btn:before {
+    content:"";
+    z-index:-1;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background: linear-gradient(to bottom, #ec5b53 50%, transparent 50%);
+}
+  
+.header-btn,
+.header-btn:before {   
+    background-size: 100% 200%;
+    background-position: bottom;
+    transition: 0.3s ease-in-out;    
+}
+  
+.header-btn:hover,
+.header-btn:hover:before{
+    background-position: top;
+}
+
+/* .header-btn {
+    padding: 16px 18px;
+    background-color: #ec5b53;
+    height: 56px;
+    color: floralwhite;
+    background-image: 
+    linear-gradient(to top, black 50%, #000 50%),
+    linear-gradient(to top, #ec5b53 50%, transparent 50%);
+    -webkit-background-clip: text,padding-box;
+    background-clip: text,padding-box;
+    -webkit-text-fill-color: transparent;
+    color: transparent;  
+    background-size: 100% 200%;
+    background-position: top;
+    transition: background-position 0.5s ease-in-out;
+    border: 1px solid #ec5b53;
+} */
+
+/* a:hover{
+    background-position: bottom;
+} */
+
+.navbar-collapse .navbar-nav a:hover {
+    color: floralwhite;
+}
+
+.home {
+    background: url(../img/hero/h1_hero.jpg) no-repeat center;
+    background-size: cover;
+    background-position-x: 105%;
+    height: 640px;
+    color: #111;
+    min-height: 100px;
+}
+
+.row {
+    padding-top: 178px;
+}
+
+.span {
+    color: #ec5b53;
+}
+
+.h1 {
+    color: #002d5b;
+    font-weight: 700px;
+    font-size: 70px;
+    padding-top: 40px;
+}
+
+.p {
+    max-width: 51%;
+    color: #464d65;
+}
+
+.st {
+    width: 200px;
+}
+
+.st {
+    color: black;
+    width: 200px;
+    border: 1px solid #ec5b534a;
+    padding: 16px 18px;
+    height: 56px;
+    letter-spacing: 0.15rem;
+    transition: all 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.st:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid  #ec5b53;
+    background-color: #ec5b53;
+    z-index: -2;
+}
+.st:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #86332f;
+    transition: all 0.3s;
+    z-index: -1;
+}
+.st:hover {
+    color: #fff;
+}
+.st:hover:before {
+    width: 100%;
+}
+
+.nd {
+    width: 200px;
+}
+
+/* .nd {
+    color: black;
+    width: 200px;
+    border: 1px solid #ec5b534a;
+    padding: 16px 18px;
+    height: 56px;
+    letter-spacing: 0.15rem;
+    transition: all 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.nd:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid  #ec5b53;
+    background-color: #ec5b53;
+    z-index: -2;
+}
+.nd:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #86332f;
+    transition: all 0.3s;
+    z-index: -1;
+}
+.nd:hover {
+    color: #fff;
+}
+.nd:hover:before {
+    width: 100%;
+} */
+
+.nd {
+    padding: 16px 18px;
+    background-color: #ec5b53;
+    height: 56px;
+    color: floralwhite;
+}
+
+
+.nd {
+    padding: 16px 18px;
+    background-color: #ec5b53;
+    height: 56px;
+    color: floralwhite;
+    border:1px solid#ec5b53;
+    position:relative;  
+    background: linear-gradient(to bottom, black 50%, #000 50%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+.nd:before {
+    content:"";
+    z-index:-1;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background: linear-gradient(to bottom, #ec5b53 50%, transparent 50%);
+}
+  
+.nd,
+.nd:before {   
+    background-size: 100% 200%;
+    background-position: bottom;
+    transition: 0.3s ease-in-out;    
+}
+  
+.nd:hover,
+.nd:hover:before{
+    background-position: top;
+}
